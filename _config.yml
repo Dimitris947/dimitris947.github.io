@@ -3,7 +3,7 @@ title               : Dimitris Liapis
 description         : >-
                       Senior Software Engineer
 baseurl             : ""            # Empty quotes for username.github.io direct hosting
-repository          : dliapis/dliapis.github.io
+repository          : Dimitris947/portfolio
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
