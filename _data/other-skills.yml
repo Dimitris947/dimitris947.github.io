@@ -5,3 +5,39 @@
 - name: Adobe Illustrator
   percentage: 90
   color: success
+
+- name: Git & GitHub
+  percentage: 90
+  color: info
+
+- name: UI/UX Design
+  percentage: 75
+  color: success
+
+- name: DevOps
+  percentage: 80
+  color: danger
+
+- name: Network Engineering
+  percentage: 90
+  color: info
+
+- name: E-commerce
+  percentage: 95
+  color: success
+
+- name: G Suite Administration
+  percentage: 85
+  color: info
+
+- name: Project Management
+  percentage: 90
+  color: success
+
+- name: English
+  percentage: 75
+  color: danger
+
+- name: Greek
+  percentage: 100
+  color: primary

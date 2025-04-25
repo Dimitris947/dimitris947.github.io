@@ -1,0 +1,4 @@
+Options -Indexes
+
+# Redirect any /blog/ URLs to the home page
+RedirectMatch 301 ^/blog/(.*)$ / 

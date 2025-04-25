@@ -1,20 +1,28 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: Task Management App
+tools: [React Native, Firebase, Redux]
+image: https://www.example.com/images/projects/taskapp.jpg
+description: A cross-platform mobile application for task management and productivity.
 ---
 
-# The Movies Project
+# Task Management App
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+A mobile application built with React Native that helps users organize tasks, set priorities, and track progress. Available for both iOS and Android platforms.
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+The app features a clean, intuitive interface that makes task management simple and efficient. Users can create task lists, set due dates and reminders, and track completion status.
 
-## Search Movies
+## Technologies Used
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+- **React Native**: For cross-platform mobile development
+- **Firebase**: For authentication and real-time database
+- **Redux**: For state management
+- **Cloud Functions**: For server-side operations
 
-<p class="text-center">
-{% include elements/button.html link="https://github.com/yousinix/portfolYOU" text="Learn More" %}
-</p>
+## Features
+
+- User authentication with email and social accounts
+- Task creation with due dates and priority levels
+- Push notifications for reminders
+- Task filtering and search
+- Dark/Light theme support
+- Offline support with data synchronization

@@ -1,11 +1,19 @@
-- name: HTML5/CSS3
+- name: SOLID Design Principles
+  percentage: 95
+  color: warning
+
+- name: Software Infrastructure
+  percentage: 90
+  color: success
+
+- name: Memcached
+  percentage: 85
+  color: info
+
+- name: Full Stack Development
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
-  color:
-
-- name: Python
-  percentage: 70
+- name: Web Development
+  percentage: 90
   color: secondary

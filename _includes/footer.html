@@ -1,0 +1,37 @@
+<footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Dimitris Liapis</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center">
+    {% for account in site.author %}
+    {% assign service_name = account[0] %}
+    {% if service_name != "name" and service_name != "image" and account[1] != null %}
+    {% capture hover_color %}{% if service_name == "instagram" %}#C13584{% elsif service_name == "github" %}#333333{% elsif service_name == "linkedin" %}#007bb5{% elsif service_name == "twitter" %}#1da1f2{% elsif service_name == "youtube" %}#ff0000{% elsif service_name == "facebook" %}#3b5998{% elsif service_name == "telegram" %}#0088cc{% elsif service_name == "vimeo" %}#1AB7EA{% elsif service_name == "codepen" %}#000000{% elsif service_name == "behance" %}#1769ff{% elsif service_name == "dribbble" %}#EA4C89{% elsif service_name == "spotify" %}#1DB954{% elsif service_name == "pinterest" %}#E60023{% elsif service_name == "quora" %}#b92b27{% elsif service_name == "medium" %}#000000{% elsif service_name == "soundcloud" %}#FF5500{% elsif service_name == "tumblr" %}#35465d{% elsif service_name == "hackernews" %}#FF6600{% elsif service_name == "stack-overflow" %}#F48024{% elsif service_name == "reddit" %}#FF4500{% elsif service_name == "keybase" %}#66ccff{% elsif service_name == "mastodon" %}#3088d4{% elsif service_name == "gitlab" %}#fc6d26{% elsif service_name == "email" %}#db4437{% else %}#6c757d{% endif %}{% endcapture %}
+    <a class="social mx-1" href="
+      {% if service_name == "email" %}mailto:{{ account[1] }}
+      {% else %}https://www.{{ service_name }}.com/{{ account[1] }}
+      {% endif %}"
+      style="color: #6c757d"
+      onMouseOver="this.style.color='{{ hover_color }}'"
+      onMouseOut="this.style.color='#6c757d'">
+      <i class="
+      {% if service_name == "mastodon" %}fab fa-mastodon
+      {% elsif service_name == "google-scholar" %}fas fa-graduation-cap
+      {% elsif service_name == "stack-overflow" %}fab fa-stack-overflow
+      {% elsif service_name == "keybase" %}fab fa-keybase
+      {% elsif service_name == "telegram" %}fab fa-telegram-plane
+      {% elsif service_name == "pinterest" %}fab fa-pinterest
+      {% elsif service_name == "quora" %}fab fa-quora
+      {% elsif service_name == "hackernews" %}fab fa-hacker-news
+      {% elsif service_name == "email" %}fas fa-envelope
+      {% else %}fab fa-{{ service_name }}
+      {% endif %} fa-1x"></i>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+</footer> 
