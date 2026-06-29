@@ -1,6 +1,6 @@
 # Dimitris Liapis - Portfolio Website
 
-This repository hosts my personal portfolio website built with Jekyll and hosted on GitHub Pages.
+This repository holds the source for my personal website at dimitris947.github.io, published via GitHub Pages.
 
 ## About
 
